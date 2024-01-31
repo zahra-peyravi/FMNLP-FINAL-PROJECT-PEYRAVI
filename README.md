@@ -29,3 +29,24 @@ Organize your dataset in a tabular format. It should have separate columns for e
 🛠️ How to Use LangChain for Data Creation
 You’ll use LangChain to generate realistic questions and contexts. Then, run these through your RAG model to get the predicted answers. Aim for realism and variety in your dataset to challenge your RAG model and thoroughly evaluate its capabilities.
 
+RAG Evaluation Using ragas
+Alright, let’s dive straight into the popular RAG metrics. Understanding these metrics is key to evaluating your RAG model effectively.
+
+Here we go:
+🎯 Answer Relevancy
+What It Measures: This metric assesses how pertinent your RAG model’s answer is to the given prompt. You’re looking for answers that hit the nail on the head, not ones that beat around the bush.
+Scoring: It’s a game of precision, with scores ranging from 0 to 1. Higher scores mean your model’s answers are right on target.
+
+📚 Faithfulness
+What It Measures: Here, you’re checking if the answers stick to the facts provided in the context. It’s all about staying true to the source.
+Scoring: Also on a scale of 0 to 1. Higher values mean your answer is a faithful representation of the context.
+
+🔍 Context Precision
+What It Measures: This one’s about whether your model ranks all the relevant bits of information at the top. You want the most important pieces front and center.
+Scoring: Once again, it’s a 0 to 1 scale. Higher scores indicate your model is doing a great job at prioritizing the right context.
+
+✅ Answer Correctness:
+What It Measures: This is about straight-up accuracy – how well does the answer align with the ground truth?
+Scoring: Judged on a 0 to 1 scale, where higher scores signal a bullseye match with the ground truth.
+
+In a nutshell, we’ve got four powerful tools to assess your RAG model. Each metric provides a different lens to view your model’s performance, from how relevant and faithful its answers are, to how precise it is with contexts and how correct its answers align with known truths.
