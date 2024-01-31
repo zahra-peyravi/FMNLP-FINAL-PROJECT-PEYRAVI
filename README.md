@@ -1,3 +1,4 @@
+# LLM Powered QA Chatbot Using RAG
 Our project will leverage a combination of cutting-edge tools and frameworks to implement and enhance the Movie QA chatbot. 
 We will utilize the Langchain framework, a powerful tool for interfacing with Large Language Models (LLMs) to construct chains of operations and autonomous agents.
 LangChain will serve as the foundation for our QA chatbot, providing a flexible environment for seamlessly integrating various components of the project.
